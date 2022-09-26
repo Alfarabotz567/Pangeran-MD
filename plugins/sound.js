@@ -10,7 +10,7 @@ let stiker = await sticker(null, global.API(`https://telegra.ph/file/a32b24ef4c1
 type: 'audioMessage', 
 ptt: false, seconds: 9999999,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
+ mediaUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
     mediaType: 2, 
     description: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
     title: "Tunggu Sebentar Stah",
@@ -25,12 +25,12 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 9999999,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
+ mediaUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
     mediaType: 2, 
-    description: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w',
-    title: "▶︎ ━━━━━━━●──────────",
-    body: Now Playing...,
-    thumbnail: await (await fetch('https://telegra.ph/file/1f8e012df6e4aca2fbd11.jpg')).buffer(),
+    description: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
+    title: "⌫     ⌨︎     ☏︎",
+    body: wm,
+    thumbnail: await (await fetch('https://telegra.ph/file/6411cc04828f3cc335324.jpg')).buffer(),
     sourceUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA'
   }
   } })
