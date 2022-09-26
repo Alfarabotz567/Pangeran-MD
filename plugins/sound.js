@@ -30,8 +30,8 @@ ptt: false, seconds: 9999999,contextInfo: {
     description: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA',
     title: "⌫     ⌨︎     ☏︎",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/6411cc04828f3cc335324.jpg')).buffer(),
-    sourceUrl: 'https://youtube.com/channel/UCmEQy5B3GhmfNVSrHEzv-uA'
+    thumbnail: await (await fetch('https://telegra.ph/file/1f8e012df6e4aca2fbd11.jpg')).buffer(),
+    sourceUrl: 'https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w'
   }
   } })
 }
